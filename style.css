@@ -55,12 +55,12 @@ body {
   color: var(--clr);
   line-height: 75px;
   opacity: 0.75;
-  transition: 0.5s;
+  transition: 0.01s;
 }
 
 .navigation ul li.active a .icon {
   opacity: 1;
-  color: #209cff;
+  color: var(--clr);
   font-weight: 900;
   transform: translateY(-8px);
 }
@@ -97,7 +97,7 @@ body {
   right: -25.75px;
   width: 20px;
   height: 20px;
-  background: transparent;
+  background: transpargent;
   border-top-left-radius: 20px;
   box-shadow: -4px -6px 0 2px var(--clr);
 }
@@ -107,8 +107,9 @@ body {
   left: -1px;
   width: 60px;
   height: 60px;
-  border: 4px solid #209cff;
+  border: 4px solid #1f82d3;
   border-radius: 50%;
+  background-color: #209cff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   transform: scale(0.85);
 }
